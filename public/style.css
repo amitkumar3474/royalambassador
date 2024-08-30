@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    margin: 20px;
+    font-family: sans-serif;
+    font-size: 12px;
+    line-height: normal;
+}
+p{
+    margin-bottom: 6px;
+    margin-top: 0px;
+    line-height: 1.2;
+}
+header {
+    width: 100%;
+    padding: 10px;
+    background: #000;
+}
+header .inner-header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.col-6{
+    width: 50%;
+}
+header .pug-logo img{
+    margin-left: auto;
+
+}
+header img{
+    display: block; 
+}
+
+.login-body {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 95px;
+	border: .3em solid #000;
+	padding-bottom: 5px;
+}
+.login_box {
+	display: block;
+	background: #9a927b none repeat scroll 0 0;
+	border: 0.4em solid #fff;
+	color: #fff;
+	margin: auto;
+	opacity: .92;
+	padding: 2em;
+	text-align: center;
+	width: 35%;
+	color: #fff;
+}
+.login_box h1{
+    font-size: 2.3em;
+    font-weight: 400;
+    font-style: italic;
+    color: #1D2F19;
+    margin-bottom: 6px;
+    font-family: 'Playfair Display', serif;
+    margin-top: 18px;
+}
+form input{
+    border: 1px solid #666666;
+    background: #fffccc;
+}
+form label{
+    text-align: right;
+    width: 140px;
+    display: inline-block;
+}
+label {
+	color: #3A3A3A;
+	font-weight: bold;
+	padding-right: 5px;
+}
+form .email{
+    margin-bottom: 6px;
+}
+form .submit button{
+    background-color: #A49147;
+    color: #292929;
+    padding: 4px;
+    border: 2px outset #D5C06F;
+    font-weight: bold;
+    min-width: 80px;
+}
+.login_box form {
+	max-width: 80%;
+	margin: auto;
+    padding-right: 20px;
+    margin-top: 20px;
+
+}
+a {
+    color: #0782C1;
+  }
+.login_box form > div {
+	display: flex;
+    justify-content: right;
+}
+.login_box form .submit {
+	margin-top: 6px;
+	margin-bottom: 6px;
+	padding-right: 10px;
+    justify-content: right;
+}
+.login_box form .forget{
+    justify-content: center;
+}
+
+
+
+
+
+footer {
+    background: #000;
+    margin: auto;
+    padding: 10px;
+    color: #99893e;
+}
+footer p{
+    margin-bottom: 5px;
+}
+footer a{
+    color: #fff;
+}
